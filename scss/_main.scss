@@ -28,7 +28,7 @@
         }
         @include max-responsive($sm) {
             background-size: 100%;
-            width: 150px;
+            width: 68px;
         }
     }
     &__itemright {
@@ -46,7 +46,7 @@
         }
         @include max-responsive($sm) {
             background-size: 100%;
-            width: 150px;
+            width: 68px;
         }
         img {
             position: relative;
@@ -68,7 +68,7 @@
         width: 100%;
         z-index: 5;
         position: relative;
-        background: #FFF;
+    
         img {
             width: 100%;
         }
@@ -82,6 +82,9 @@
     position: relative;
     &__item {
         text-align: center;
+        @include max-responsive($sm) {
+           margin-bottom: 12%;
+        }
         &--bg {
             border-radius: 20px;
             opacity: 0.8;
@@ -191,7 +194,8 @@
             border-radius: 25px;
         }
         &__bg {
-            background: #F8EFFF;
+            // background: #F8EFFF;
+            background: #f8e7f1;
             border-radius: 20px;
             padding-bottom: 5px;
         }
@@ -223,12 +227,17 @@
                 font-weight: bold;
                 text-align: left;
                 margin-top: -10px;
+                p {
+                    background: -webkit-radial-gradient(#f37e6c, #e04899, #9946b5);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
                 @include max-responsive($sm) {
                     font-size: 18px;
                 }
             }
             &--time {
-                color: #F59425;
+                color: #590e9a;
                 margin-top: -15px;
                 margin-bottom: 10px;
                 font-size: 16px;
@@ -239,6 +248,7 @@
             &--subtitle {
                 // font-weight: 500;
                 font-size: 18px;
+                color: #c11f53  ;
                 @include max-responsive($sm) {
                     font-size: 12px;
                 }

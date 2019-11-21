@@ -2439,7 +2439,7 @@ a {
 @media (max-width: 768px) {
   .main__itemleft {
     background-size: 100%;
-    width: 150px;
+    width: 68px;
   }
 }
 
@@ -2464,7 +2464,7 @@ a {
 @media (max-width: 768px) {
   .main__itemright {
     background-size: 100%;
-    width: 150px;
+    width: 68px;
   }
 }
 
@@ -2493,7 +2493,6 @@ a {
   width: 100%;
   z-index: 5;
   position: relative;
-  background: #FFF;
 }
 
 .main__bannermobile img {
@@ -2512,6 +2511,12 @@ a {
 
 .content__item {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .content__item {
+    margin-bottom: 12%;
+  }
 }
 
 .content__item--bg {
@@ -2648,7 +2653,7 @@ a {
 }
 
 .content__box__bg {
-  background: #F8EFFF;
+  background: #f8e7f1;
   border-radius: 20px;
   padding-bottom: 5px;
 }
@@ -2690,6 +2695,12 @@ a {
   margin-top: -10px;
 }
 
+.content__box__item2--title p {
+  background: -webkit-radial-gradient(#f37e6c, #e04899, #9946b5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media (max-width: 768px) {
   .content__box__item2--title {
     font-size: 18px;
@@ -2697,7 +2708,7 @@ a {
 }
 
 .content__box__item2--time {
-  color: #F59425;
+  color: #590e9a;
   margin-top: -15px;
   margin-bottom: 10px;
   font-size: 16px;
@@ -2711,6 +2722,7 @@ a {
 
 .content__box__item2--subtitle {
   font-size: 18px;
+  color: #c11f53;
 }
 
 @media (max-width: 768px) {
